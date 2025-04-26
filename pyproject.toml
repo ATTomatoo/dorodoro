@@ -7,14 +7,17 @@ license = "AGPL3.0"
 readme = "README.md"
 homepage = "https://github.com/ATTomatoo/dorodoro"
 repository = "https://github.com/ATTomatoo/dorodoro"
-keywords = ["nonebot", "nonebot2", "nonebot_plugin", "dorodoro"]
+keywords = ["nonebot", "nonebot2", "nonebot_plugin", "doro"]
 
 packages = [{ include = "nonebot_plugin_dorodoro" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-nonebot2 = "^2.3.3"
-nonebot-adapter-onebot = "^2.3.3"
+nonebot2 = ">2.3.3"
+nonebot-adapter-onebot = ">2.3.3"
+nonebot-plugin-alconna = ">0.57.0"
+nonebot-plugin-uninfo = ">0.7.0"
+aiofiles = ">23.2.0"
 
 [build-system]
 requires = ["poetry-core"]
