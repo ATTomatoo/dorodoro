@@ -1,3 +1,3 @@
-import os
+from pathlib import Path
 
-IMAGE_DIR = os.path.join(os.path.dirname(__file__), "images")
+IMAGE_DIR = Path(__file__).parent / "images"
