@@ -5,7 +5,7 @@ from .config import IMAGE_DIR
 
 async def get_image_segment(image_name):
     image_path = IMAGE_DIR / image_name
-    return Image(path=image_path) if image_path.exist() else None
+    return Image(path=image_path) if image_path.exists() else None
 
 
 async def send_images(images):
