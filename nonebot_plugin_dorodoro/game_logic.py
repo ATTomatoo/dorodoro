@@ -25,6 +25,8 @@ user_game_state = {}
 
 
 async def get_next_node(current_node, choice):
+    if STORY_DATA == {}:
+        await load_story_data()
     data = STORY_DATA.get(current_node, {})
     options = data.get("options", {})
     if choice not in options:
@@ -46,6 +48,8 @@ async def update_user_state(user_id, next_node):
 
 
 async def get_node_data(node):
+    if STORY_DATA == {}:
+        await load_story_data()
     return STORY_DATA.get(node)
 
 

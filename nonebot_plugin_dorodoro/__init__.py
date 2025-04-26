@@ -87,7 +87,7 @@ async def handle_choose(p: Arparma, session: Session = UniSession()):
 
     await send_images(next_data.get("image"))
 
-    if is_end_node(next_data):
+    if await is_end_node(next_data):
         await choose.send(Text(msg + "\n故事结束。"), reply_to=True)
         user_game_state.pop(user_id, None)
     else:
