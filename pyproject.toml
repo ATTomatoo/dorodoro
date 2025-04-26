@@ -13,9 +13,10 @@ packages = [{ include = "nonebot_plugin_dorodoro" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-nonebot2 = "^2.3.3"
-nonebot-adapter-onebot = "^2.3.3"
+nonebot2 = ">2.3.3"
+nonebot-adapter-onebot = ">2.3.3"
 nonebot-plugin-alconna = ">0.57.0"
+nonebot-plugin-uninfo = ">0.7.0"
 aiofiles = ">23.2.0"
 
 [build-system]
