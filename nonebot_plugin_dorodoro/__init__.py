@@ -23,7 +23,7 @@ __plugin_meta__ = PluginMetadata(
     homepage="https://github.com/ATTomatoo/dorodoro",
     extra={
         "author": "ATTomatoo",
-        "version": "1.5.1",
+        "version": "1.5.2",
         "priority": 5,
         "plugin_type": "NORMAL",
     },
