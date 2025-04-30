@@ -1,6 +1,10 @@
+from nonebot import require
+
+require("nonebot_plugin_alconna")
 from nonebot.plugin import PluginMetadata
 from nonebot_plugin_alconna import Alconna, Args, Arparma, CommandMeta, Text, on_alconna
 from nonebot_plugin_uninfo import Session, UniSession
+
 
 from .game_logic import (
     get_next_node,
@@ -14,6 +18,7 @@ from .image_handler import send_images
 __plugin_meta__ = PluginMetadata(
     name="doro大冒险",
     description="一个基于文字冒险的游戏插件",
+
     type="application",
     usage="""
     使用方法：
@@ -24,7 +29,7 @@ __plugin_meta__ = PluginMetadata(
     supported_adapters={"~onebot.v11"},
     extra={
         "author": "ATTomatoo",
-        "version": "1.5.3",
+        "version": "1.5.4",
         "priority": 5,
         "plugin_type": "NORMAL",
     },
