@@ -21,6 +21,7 @@ __plugin_meta__ = PluginMetadata(
     choose <选项> 或 选择 <选项>：在游戏中做出选择
     """,
     homepage="https://github.com/ATTomatoo/dorodoro",
+    supported_adapters={"~onebot.v11"},
     extra={
         "author": "ATTomatoo",
         "version": "1.5.2",
