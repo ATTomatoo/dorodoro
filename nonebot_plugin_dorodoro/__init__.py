@@ -1,6 +1,7 @@
 from nonebot import require
 
 require("nonebot_plugin_alconna")
+require("nonebot_plugin_uninfo")
 from nonebot.plugin import PluginMetadata
 from nonebot_plugin_alconna import Alconna, Args, Arparma, CommandMeta, Text, on_alconna
 from nonebot_plugin_uninfo import Session, UniSession
@@ -29,7 +30,7 @@ __plugin_meta__ = PluginMetadata(
     supported_adapters={"~onebot.v11"},
     extra={
         "author": "ATTomatoo",
-        "version": "1.5.4",
+        "version": "1.5.5",
         "priority": 5,
         "plugin_type": "NORMAL",
     },

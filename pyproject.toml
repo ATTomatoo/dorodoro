@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_dorodoro"
-version = "1.5.4"
+version = "1.5.5"
 description = "一个基于文字冒险的游戏插件"
 authors = ["ATTomatoo"]
 license = "AGPL3.0"
