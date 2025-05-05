@@ -1,7 +1,6 @@
 from nonebot import require
 
-require("nonebot_plugin_alconna")
-require("nonebot_plugin_uninfo")
+
 from nonebot.plugin import PluginMetadata
 from nonebot_plugin_alconna import Alconna, Args, Arparma, CommandMeta, Text, on_alconna
 from nonebot_plugin_uninfo import Session, UniSession
@@ -27,10 +26,10 @@ __plugin_meta__ = PluginMetadata(
     choose <选项> 或 选择 <选项>：在游戏中做出选择
     """,
     homepage="https://github.com/ATTomatoo/dorodoro",
-    supported_adapters={"~onebot.v11"},
+    inherit_supported_adapters={"nonebot_plugin_alconna, nonebot_plugin_uninfo"},
     extra={
         "author": "ATTomatoo",
-        "version": "1.5.5",
+        "version": "1.5.6",
         "priority": 5,
         "plugin_type": "NORMAL",
     },

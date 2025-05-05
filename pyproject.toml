@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_dorodoro"
-version = "1.5.5"
+version = "1.5.6"
 description = "一个基于文字冒险的游戏插件"
 authors = ["ATTomatoo"]
 license = "AGPL3.0"
@@ -14,7 +14,6 @@ packages = [{ include = "nonebot_plugin_dorodoro" }]
 [tool.poetry.dependencies]
 python = "^3.8"
 nonebot2 = ">2.3.3"
-nonebot-adapter-onebot = ">2.3.3"
 nonebot-plugin-alconna = ">0.57.0"
 nonebot-plugin-uninfo = ">0.7.0"
 aiofiles = ">23.2.0"
