@@ -1,7 +1,7 @@
 # Dorodoro 文字冒险游戏插件
 
 ![NoneBot Plugin](https://img.shields.io/badge/NoneBot%20Plugin-Dorodoro-blue)
-![Version](https://img.shields.io/badge/Version-1.3.9-green)
+![Version](https://img.shields.io/badge/Version-1.5.7-green)
 ![License](https://img.shields.io/badge/License-AGPL--3.0-orange)
 
 Dorodoro 是一个基于 NoneBot2 框架的文字冒险游戏插件，提供交互式故事体验。
